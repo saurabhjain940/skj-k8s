@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: custom-app
-          image: 730335384723.dkr.ecr.ap-south-1.amazonaws.com/hybrid:latest
+          image: 730335384723.dkr.ecr.ap-south-1.amazonaws.com/hybrid:v_1e737fc_2025_03_13_20_02
           ports:
             - containerPort: 8080
 ---
