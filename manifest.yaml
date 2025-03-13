@@ -11,7 +11,7 @@ spec:
       app: custom-app
   template:
     metadata:
-      labels:
+      labels: -
         app: custom-app
     spec:
       containers:
